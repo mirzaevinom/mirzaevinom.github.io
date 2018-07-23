@@ -169,10 +169,11 @@ ul#menu li a:hover
 { color: #F14E23;}
 
 #site_content
-{ width: 950px;
+{ width: auto;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 0;
+  text-align: center;
   background: #fff;
   border: 1px solid #E7E7E7;}
 
@@ -205,9 +206,9 @@ ul#menu li a:hover
 
 #content
 { text-align: left;
-  width: 630px;
+  width: auto;
   padding: 25px 0 5px 25px;
-  margin: 0;}
+  margin: 10px;}
 
 #content ul
 { margin: 2px 0 22px 0px;}
