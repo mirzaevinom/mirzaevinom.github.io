@@ -131,7 +131,7 @@ ol li
 { height: 46px;
   width: auto;
   margin: 0px auto -1px auto;
-  float: right;
+  float: left;
   padding: 0px 0 0 0;}
 
 ul#menu
@@ -142,7 +142,8 @@ ul#menu li
   padding: 0 0 0px 0px;
   list-style: none;
   margin: 2px 0 0 0;
-  background: transparent;}
+  background: transparent;
+  width:auto}
 
 ul#menu li a
 { font: normal 170% 'Yanone Kaffeesatz', sans-serif;
