@@ -13,7 +13,8 @@ body
 p
 { padding: 0 0 20px 0;
   line-height: 1.5em;
-  font-size: 107%;}
+  /* font-size: 107%; */
+}
 
 img
 { border: 0;}
@@ -317,12 +318,14 @@ table
 { margin: 10px 0 30px 0;}
 
 table tr th, table tr td
-{ background: #F5F5F5;
-  color: #111;
+{
+  background: #FFFFFF;
+  /* color: #111; */
   padding: 7px 4px;
-  text-align: left;}
+  /* text-align: left; */
+}
 
-table tr td
+/* table tr td
 { background: #FBFBFB;
   color: #111;
-  border-top: 1px solid #FFF;}
+  border-top: 1px solid #FFF;} */
