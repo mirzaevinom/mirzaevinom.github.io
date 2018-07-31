@@ -214,3 +214,122 @@ border-right:1px solid #999;
 /* useful when http://www.menucool.com/ddmenu/one-menu-for-all-pages */
 #ddmenuLink {display:none;}
 
+/*######## add additional styles for mobile-friendly responsive menu ########*/
+
+#ddmenu .menu-icon   
+{
+    display:none; /* hide menu icon initially */
+}
+
+
+
+/*styles for mobile*/
+@media only screen and (max-width: 480px) 
+{
+    #ddmenu .column.mayHide {
+        display:none;
+    }
+
+    /*override the original settings*/
+    #ddmenu ul {
+        width: 100%; 
+        display: none;
+        border-radius:0;
+         
+    }
+	
+    #ddmenu li {
+        position:relative;
+        display:block;
+        font-size:20px;
+        text-align:left;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        border-radius:0;
+    }
+
+    #ddmenu .full-width {
+        position: relative;
+    }
+    
+    #ddmenu .dropdown {
+        position:relative;
+        *top:auto;/*for IE7*/
+        border:none;
+        border-radius:0;
+        box-shadow:none;
+        background-color:#FFF;
+    }
+    
+    #ddmenu .offset300 {
+        left:0;
+    }
+
+    #ddmenu .full-width .dropdown {
+        width: auto;
+    }
+        
+    #ddmenu .dd-inner
+    {
+        margin:0;
+        background:none;
+        text-align:left;
+    }
+    
+    /*turn each column to list vertically instead of horizontally */
+    #ddmenu .column {
+        width:auto;
+        padding:0;
+        border:none;
+        display:block;
+    }
+
+    /*move the arrow icon to right*/
+    #ddmenu .caret {
+        position:absolute;
+        left:auto;
+        right:14px;
+        top:20px;
+        border-width:5px;
+    }
+
+
+    /* All the following are for the .menu-icon (pure CSS) */
+    #ddmenu .menu-icon {
+        font-size:32px;/*icon size*/
+		display: block;
+        position: relative;
+		width: 40px;
+		height:36px;
+        text-align:center;
+		cursor: pointer;
+		-moz-user-select:none;		
+        -webkit-user-select: none;
+        background-color: #eee;
+        border-radius: 3px;
+
+        margin-bottom:6px;
+        /*align the icon to the right*/
+        margin-left: auto;
+        margin-right: 11px;
+    }
+
+    #ddmenu .menu-icon::before {
+        content: "";
+        position: absolute;
+        top: 0.25em;
+        left: 4px;
+        width: 1em;
+        height: 0.125em;
+        border-top: 0.375em double #333;
+        border-bottom: 0.125em solid #333;
+        box-sizing: content-box;
+    }
+
+    #ddmenu .menu-icon-active {
+        background-color: #333;
+    }
+
+    #ddmenu .menu-icon-active::before {
+        border-color: #eee;
+    }
+}
