@@ -5,12 +5,11 @@ html
 { margin: 0;
   padding: 0;}
 
-
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
   background: #F7F7F7 url(pattern.png) fixed;
-  color: #555;
-  width: auto;}
+  color: #555;}
+
 p
 { padding: 0 0 20px 0;
   line-height: 1.5em;
@@ -94,15 +93,15 @@ ol li
   margin-right: auto;}
 
 #main
-{ width: 70%;
-  margin: 2% auto;}
+{ width: 950px;
+  margin: 20px auto;}
 
 #header
-{ width: 100%;
+{ width: 952px;
   height: 145px;}
 
 #logo
-{ width: 100%;
+{ width: 950px;
   float: left;
   height: 100px;
   background: transparent;
@@ -130,7 +129,7 @@ ol li
   color: #111;}
 
 #menubar
-{ height: 10%;
+{ height: 46px;
   width: auto;
   margin: 0px auto -1px auto;
   float: left;
