@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
   <title>Inom Mirzaev</title>
   <meta name="description" content="website description" />
@@ -24,9 +25,6 @@
           <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
           <li><a href="index.html">Home</a></li>
           <li class="current"><a href="projects.html">Projects</a></li>
-          <li><a href="publications.html">Publications</a></li>
-          <!-- <li><a href="data_science.html">Data Science</a></li> -->
-          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -34,92 +32,53 @@
 
       <div id="content">
         <!-- insert the page content here -->
-<h3>The 2018 Data Science Bowl: spot nuclei, speed cures</h3>
+        <h3>The 2018 Data Science Bowl: spot nuclei, speed cures</h3>
 
-<p>The 2018 Data Science Bowl was organized Booz Allen Hamilton and Kaggle. The task of the competition was to create a
-  computer model that can identify a range of nuclei across varied conditions. For this competition, I modified
-  <a href="https://github.com/matterport/Mask_RCNN" target="_blank">Matterport's</a> implementation of
-  <a href="https://arxiv.org/abs/1703.06870" target="_blank">Mask R-CNN</a> deep neural network for object instance segmentation.
-  My solution was awarded prize winnning <b>5th place among 816 teams worldwide</b>. More details can be found in my
-  <a href="https://github.com/mirzaevinom/data_science_bowl_2018" target="_blank">github repository</a>.
-</p>
-<div style="text-align:center;">
-<img src="images/sample_1.png" height="200px"/><img src="images/sample_2.png" height="200px"/><img src="images/sample_3.png" height="200px"/>
-</div>
+        <p>The 2018 Data Science Bowl was organized Booz Allen Hamilton and Kaggle. The task of the competition was to create a
+          computer model that can identify a range of nuclei across varied conditions. For this competition, I modified
+          <a href="https://github.com/matterport/Mask_RCNN" target="_blank">Matterport's</a> implementation of
+          <a href="https://arxiv.org/abs/1703.06870" target="_blank">Mask R-CNN</a> deep neural network for object instance segmentation.
+          My solution was awarded prize winnning <b>5th place among 816 teams worldwide</b>. More details can be found in my
+          <a href="https://github.com/mirzaevinom/data_science_bowl_2018" target="_blank">github repository</a>.
+        </p>
+        <div style="text-align:center;">
+          <img src="images/sample_1.png" height="200px" /><img src="images/sample_2.png" height="200px" /><img src="images/sample_3.png" height="200px" />
+        </div>
 
-<h3>Automated Segmentation of Structures from MR images </h3>
+        <h3>Automated Segmentation of Structures from MR images </h3>
 
-<p>Deep learning methods have been widely used to produce state-of-the-art results for object recognition.
-  One of the main advantages of deep learning is they eliminate the need for the manual feature engineering step,
-  which is required for traditional statistical learning approaches. Although the adoption of deep learning in biological
-  applications has been comparatively slow, they have recently been used in biomedical image segmentation, cancer phenotype
-  to genotype matching to name a few. Motivated by the recent findings in the application of deep learning in object
-  segmentation, in this work, we wish to apply up-to-date deep learning techniques for automated segmentation of structures
-  from MR images. More details can be found in my <a href="https://github.com/mirzaevinom/promise12_segmentation" target="_blank">github repository</a>.
-</p>
-<div style="text-align:center;">
-<img src="images/schematic.png" height="300px"/>
-</div>
+        <p>Deep learning methods have been widely used to produce state-of-the-art results for object recognition.
+          One of the main advantages of deep learning is they eliminate the need for the manual feature engineering step,
+          which is required for traditional statistical learning approaches. Although the adoption of deep learning in biological
+          applications has been comparatively slow, they have recently been used in biomedical image segmentation, cancer phenotype
+          to genotype matching to name a few. Motivated by the recent findings in the application of deep learning in object
+          segmentation, in this work, we wish to apply up-to-date deep learning techniques for automated segmentation of structures
+          from MR images. More details can be found in my <a href="https://github.com/mirzaevinom/promise12_segmentation" target="_blank">github repository</a>.
+        </p>
+        <div style="text-align:center;">
+          <img src="images/schematic.png" height="300px" />
+        </div>
 
-<h3>egtplot: A Python Package for 3-Strategy Evolutionary Games</h3>
+        <h3>egtplot: A Python Package for 3-Strategy Evolutionary Games</h3>
 
-<p>Evolutionary game theory is a very broad modeling framework that effectively describes many aspects
-	 of biological cooperation and competition. Visualization of three-strategy evolutionary games has historically
-	 been difficult within the Python ecosystem. We have created a package to ease visualization efforts that is
-	 capable of displaying both static and animated dynamics with the game space.
-For detailed software usage instructions we refer readers to our interactive
-<a href="https://github.com/mirzaevinom/egtplot/blob/master/egtplot_demonstration.ipynb ">jupyter notebook</a>.
-More details are available in publication in <a href="https://joss.theoj.org/papers/0cc2d656d8a02a84e0cde905207820d7">Journal of Open Source Software</a> where you can also find installation instructions. <br>
-</p>
-<div style="text-align:center;">
-<img src="images/egtplot_animation.gif" height="200px"/><img src="images/egtplot_simplex.png" height="200px"/>
-</div>
-
-
-<h3>Microbial Flocculation Dynamics</h3>
-
-<p>Flocculation is the reversible combination and separation of suspended particles in a fluid. It is a phenomenon ubiquitous
-  in a wide variety of fields such as meteorology, marine science, astronomy, polymer science, and biotechnology.
-  Flocculation is an efficient liquid-solid separation technique and has a broad range of industrial applications including fermentation,
-  biofuel production, mineral processing, and wastewater treatment. A common mathematical model for the microbial flocculation
-  is a 1D nonlinear partial integro-differential equation, which has been used successfully in matching many flocculation experiments.
-  In this project with Prof. Bortz, we rigorously investigate the long-term behavior of the microbial flocculation equations.
-  When the long-term behavior of biological populations is considered, many populations converge to a stable time-independent state.
-  Towards this end, using results from fixed point theory, we first derive conditions for the existence of continuous,
-  non-trivial stationary solutions. We further apply the principle of linearized stability and semigroup compactness arguments
-  to provide sufficient conditions for local stability of stationary solutions as well as sufficient conditions for instability.
-  Consequently, we develop a numerical framework for computing approximations to stationary solutions of the microbial
-  flocculation equations, which can also be used to produce approximate existence and stability regions for steady states.
-  Furthermore, this numerical framework can be used to numerically investigate stationary solutions of general evolution equations.
-  We develop several efficient and high-precision numerical schemes based on Finite Difference and Spectral Collocation methods to
-  approximate stationary solutions of the microbial flocculation equations. We exploit spectral accuracy of the Spectral Collocation
-  method for the numerical spectral analysis, which in turn allows us to heuristically deduce local stability of numerically computed
-  steady states. We explore the stationary solutions of the model for various biologically relevant parameters and give valuable
-  insights for the efficient removal of suspended particles. Lastly, we investigate the inverse problem of identifying a
-  conditional probability measure in measure-dependent evolution equations arising in size-structured population modeling.
-  We illustrate that a particular form of the microbial flocculation equations is one realization of a system satisfying the hypotheses in our framework.
-</p>
-<div style="text-align:center;">
-<a href="https://mathbio.colorado.edu/images/Deform_flow3.gif" imageanchor="1"></a>
-<a href="https://mathbio.colorado.edu/images/Deform_flow3.gif" imageanchor="1" style="background-color:rgb(255,255,255);font-size:10pt"><img border="0" height="245" src="https://mathbio.colorado.edu/images/Deform_flow3.gif" width="320"></a><a href="https://mathbio.colorado.edu/images/Flocculation3.gif" imageanchor="1" style="background-color:rgb(255,255,255);font-size:13.3333px"><img border="0" height="320" src="https://mathbio.colorado.edu/images/Flocculation3.gif" width="320"></a>
-</div>
-
-<br>
-<br>
-<h3>Laplacian Dynamics</h3>
-
-<p>
-In this work, we have introduced a "linear framework" for time-scale separation in biochemical systems, which is based on a labelled, directed graph and an associated linear differential equation. Biochemical nonlinearity is encoded in the graph labels. Many central results in molecular biology can be systematically derived within this framework, including those for enzyme kinetics, allosteric proteins, G-protein coupled receptors, ion channels, gene regulation at thermodynamic equilibrium, and protein post-translational modification. In the present paper, in response to new applications, which accommodate nonequilibrium mechanisms in eukaryotic gene regulation, we lay out the mathematical foundations of the framework. We show that, for any graph and any initial condition, the dynamics always reaches a steady state, which can be algorithmically calculated. If the graph is not strongly connected, which may occur in gene regulation, we show that the dynamics can exhibit flexible behavior that resembles multistability. We further reveal an unexpected equivalence between deterministic Laplacian dynamics and the master equations of continuous-time Markov processes, which allows rigorous treatment within the framework of stochastic, single-molecule mechanisms. Later, we extended this results for directed graphs with degradation and synthesis edges.
-</p>
-
-<div style="text-align:center;">
-  <a href="https://mathbio.colorado.edu/images/Laplacian.gif" imageanchor="1" style="background-color:rgb(255,255,255);text-align:start;font-size:13.3333px">
-    <img border="0" height="193" src="https://mathbio.colorado.edu/images/Laplacian.gif" width="400"></a>
-  </div>
+        <p>Evolutionary game theory is a very broad modeling framework that effectively describes many aspects
+          of biological cooperation and competition. Visualization of three-strategy evolutionary games has historically
+          been difficult within the Python ecosystem. We have created a package to ease visualization efforts that is
+          capable of displaying both static and animated dynamics with the game space.
+          For detailed software usage instructions we refer readers to our interactive
+          <a href="https://github.com/mirzaevinom/egtplot/blob/master/egtplot_demonstration.ipynb ">jupyter notebook</a>.
+          More details are available in publication in <a href="https://joss.theoj.org/papers/0cc2d656d8a02a84e0cde905207820d7">Journal of Open Source Software</a> where you can
+          also find installation instructions. <br>
+        </p>
+        <div style="text-align:center;">
+          <img src="images/egtplot_animation.gif" height="200px" /><img src="images/egtplot_simplex.png" height="200px" />
+        </div>
 
 
-    </div>
+
+      </div>
     </div>
 
 </body>
+
 </html>
